@@ -1,0 +1,12 @@
+D:\Code\DataFlow\Maker\obj\Debug\Maker.csprojResolveAssemblyReference.cache
+D:\Code\DataFlow\Maker\bin\Debug\Maker.exe.config
+D:\Code\DataFlow\Maker\bin\Debug\Maker.exe
+D:\Code\DataFlow\Maker\bin\Debug\Maker.pdb
+D:\Code\DataFlow\Maker\bin\Debug\DataFlow.dll
+D:\Code\DataFlow\Maker\bin\Debug\EntityFramework.dll
+D:\Code\DataFlow\Maker\bin\Debug\DataFlow.pdb
+D:\Code\DataFlow\Maker\bin\Debug\EntityFramework.xml
+D:\Code\DataFlow\Maker\obj\Debug\Maker.exe
+D:\Code\DataFlow\Maker\obj\Debug\Maker.pdb
+D:\Code\DataFlow\Maker\bin\Debug\EntityFramework.SqlServer.dll
+D:\Code\DataFlow\Maker\bin\Debug\EntityFramework.SqlServer.xml

@@ -1,0 +1,12 @@
+D:\Code\DataFlow\Client\bin\Debug\Client.exe.config
+D:\Code\DataFlow\Client\bin\Debug\Client.exe
+D:\Code\DataFlow\Client\bin\Debug\Client.pdb
+D:\Code\DataFlow\Client\bin\Debug\DataFlow.dll
+D:\Code\DataFlow\Client\bin\Debug\EntityFramework.dll
+D:\Code\DataFlow\Client\bin\Debug\DataFlow.pdb
+D:\Code\DataFlow\Client\bin\Debug\EntityFramework.xml
+D:\Code\DataFlow\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+D:\Code\DataFlow\Client\obj\Debug\Client.exe
+D:\Code\DataFlow\Client\obj\Debug\Client.pdb
+D:\Code\DataFlow\Client\bin\Debug\EntityFramework.SqlServer.dll
+D:\Code\DataFlow\Client\bin\Debug\EntityFramework.SqlServer.xml

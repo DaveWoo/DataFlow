@@ -1,0 +1,83 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Maker.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FactoriesTemplates" Type="System.String" Scope="User">
+      <Value Profile="(Default)">using DataFlow.Model;
+using DataFlow.Model;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Xml.Linq;
+
+namespace DataFlow.Factories
+{
+	internal class $entityType$Factory : IBuilder
+	{
+		#region Prepare basic data
+
+		private $DBEntities$ entitiesDbContext = null;
+		private IEnumerable&lt;XElement&gt; dataFromDB = null;
+
+		public $entityType$Factory(IEnumerable&lt;XElement&gt; dataFromDB)
+		{
+			entitiesDbContext = new $DBEntities$();
+			this.dataFromDB = dataFromDB;
+		}
+
+		#endregion Prepare basic data
+
+		#region Interface implements
+
+		public void ReadEntityFileToDB()
+		{
+			try
+			{
+				var primary = Utility.Deserialize&lt;$entityType$&gt;(typeof($entityType$).Name) as $entityType$[];
+
+				foreach (var item in primary)
+				{
+					if (entitiesDbContext.$entitySet$.Any($entityKey$))
+					{
+						//todo
+					}
+					else
+					{
+						entitiesDbContext.$entitySet$.Add(item);	//todo
+						entitiesDbContext.SaveChanges();
+					}
+				}
+			}
+			catch (Exception)
+			{
+				throw;
+			}
+		}
+
+		public void CreateEntityFileToDestination()
+		{
+			try
+			{
+				List&lt;$entityType$&gt; entity = new List&lt;$entityType$&gt;();
+				foreach (var item in entitiesDbContext.$entitySet$)
+				{
+					if (dataFromDB.Any($entityKey2$))
+					{
+						entity.Add(item);
+					}
+				}
+
+				Utility.Serialize&lt;$entityType$&gt;(entity, typeof($entityType$).Name);
+			}
+			catch (Exception)
+			{
+				throw;
+			}
+		}
+
+		#endregion Interface implements
+	}
+}</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
